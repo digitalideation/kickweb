@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* The animation code */
+        @keyframes example {
+            0%   {background-color: #2b57ff;border-radius: 50%;}
+            25%  {background-color: #b64eff;border-radius: 5%;}
+            50%  {background-color: #81062a;}
+            100% {background-color: #1195ed;border-radius: 50%;}
+        }
+
+        /* The element to apply the animation to */
+        div.animiert {
+            width: 100px;
+            height: 100px;
+            background-color: #2b57ff;
+            animation-name: example;
+            animation-duration: 4s;
+            /*animation-iteration-count: infinite;*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="animiert"></div>
+</body>
+</html>
