@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Axis and language</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        body{
+            margin:0px;
+            padding:0px;
+        }
+
+        .box {
+            display: flex;
+
+        }
+        .mainrow{
+            flex-direction: row;
+        }
+        .maincol{
+            flex-direction: column;
+        }
+        .right-to-left{
+            direction:rtl;
+        }
+        .vertical-rl{
+            writing-mode:vertical-rl;
+        }
+        .box div{
+            font-weight:700;
+            border:1px dotted red;
+            padding:6px;
+            line-height:120%; /* The default line-height is about 110% to 120% for the majority of the browsers. The line-height property sets the leading of lines of a text. If the line-height value is greater than the font-size value of an element, the difference will be the leading of text.*/
+        }
+        .exp{
+            margin:10px;
+            border:1px dotted blue;
+        }
+    </style>
+</head>
+<body>
+<div class="exp">
+    flex-direction:row; direction:ltr; writing-mode: horizontal-tb;
+<div class="box mainrow">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</div>
+    flex-direction:column; direction:ltr; writing-mode: horizontal-tb;
+<div class="box maincol">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</div>
+</div>
+<div class="exp">
+<div class="right-to-left">
+    flex-direction:row; direction:rtl; writing-mode: horizontal-tb;
+    <div class="box mainrow">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    flex-direction:column; direction:rtl; writing-mode: horizontal-tb;
+    <div class="box maincol">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</div>
+</div>
+<div class="exp">
+    <div class="vertical-rl">
+        flex-direction:row; direction:ltr; writing-mode: vertical-rl;
+        <div class="box mainrow">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+        flex-direction:column; direction:ltr; writing-mode: vertical-rl;
+        <div class="box maincol">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

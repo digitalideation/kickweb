@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-basis</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        body{
+            margin:0px;
+            padding:0px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+            width:100vw;
+            background-color:rgba(0,0,255, 0.3)
+        }
+
+        .box.row {
+            display: flex;
+            flex-direction:row;
+            height:30vw;
+        }
+
+        .box div{
+            font-weight:700;
+            border:1px dotted red;
+            padding:6px;
+            width:50px;
+            height:50px;
+            flex-basis:20px;
+            line-height:120%; /* The default line-height is about 110% to 120% for the majority of the browsers. The line-height property sets the leading of lines of a text. If the line-height value is greater than the font-size value of an element, the difference will be the leading of text.*/
+            background-color:rgba(255,0,0, 0.3);
+            order:0;
+        }
+
+        .changeorder div:nth-of-type(5){
+            order:-1;
+        }
+        .changeorder div:nth-of-type(3){
+            order:-2;
+        }
+        .changeorder div:nth-of-type(6){
+            order:1;
+        }
+        .changeorder div:nth-of-type(4), .changeorder div:nth-of-type(7){
+            order:2;
+        }
+
+    </style>
+</head>
+<body>
+<div class="exp">
+    Ohne Order
+<div class="box row">
+    <div>F</div>
+    <div>L</div>
+    <div>E</div>
+    <div>X</div>
+    <div>B</div>
+    <div>O</div>
+    <div>X</div>
+</div>
+<br/>
+    Mit Order
+<div class="box row changeorder">
+        <div>F</div>
+        <div>L</div>
+        <div>E</div>
+        <div>X</div>
+        <div>B</div>
+        <div>O</div>
+        <div>X</div>
+</div>
+</div>
+
+</body>
+</html>
