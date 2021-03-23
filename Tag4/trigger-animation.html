@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Statusveränderungen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            font-family: 'Work Sans';
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:100vw;
+            height:100vh;
+        }
+
+        .box div {
+            width: 500px;
+            height: 500px;
+            background-color:lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size:144px;
+            /* die drei zeilen auskommentieren, dann ändert der State ohne Übergang*/
+            
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 1s;
+        }
+
+        .box div.changeState{
+            background-color:black;
+            color:white;
+        }
+       
+
+      /*  .box:hover div{
+        background-color:black;
+            color:white;
+            width: 600px;
+            height: 600px;
+       }*/
+    </style>
+</head>
+<body>
+<div class="box">
+    <div id="changed">
+        <div class="text">
+            Bin ich blau?
+        </div>
+    </div>
+</div>
+</body>
+<script>
+window.addEventListener("resize", function(){
+  var element = document.getElementById("changed");
+  element.classList.add("changeState");
+  //console.log("resized");
+});
+</script>
+</html>
