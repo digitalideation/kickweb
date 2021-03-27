@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Statusveränderungen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Work Sans';
+        }
+        
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .box>div {
+            border: 1px solid black;
+        }
+        
+        .box div.text {
+            width: 500px;
+            height: 500px;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 144px;
+        }
+        /* The animation code */
+        
+        @keyframes example {
+            0% {
+                background-color: #2b57ff;
+                transform: rotate(0deg) scale(1, 1);
+            }
+            25% {
+                background-color: #b64eff;
+                transform: rotate(45deg) scale(1.2, 1.2);
+            }
+            50% {
+                background-color: #81062a;
+                transform: rotate(-45deg) scale(1, 1);
+            }
+            100% {
+                background-color: #1195ed;
+                transform: rotate(0deg) scale(1, 1);
+            }
+        }
+        /* The element to apply the animation to */
+        
+        section.animiert .box div.text {
+            animation-name: example;
+            animation-duration: 7s;
+            animation-fill-mode: forwards;
+            /*animation-iteration-count: infinite;*/
+        }
+        
+        section {
+            min-height: 80vh;
+            background-color: blue;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+    <section>
+        <div class="box">
+            <div>
+                <div class="text">
+                    Rotation
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+    </section>
+
+</body>
+<script>
+    let section = document.querySelectorAll('section')
+
+    window.onscroll = (() => {
+        section.forEach(function(v) {
+            let rect = v.getBoundingClientRect();
+            let y = rect.y;
+            if (y > window.innerHeight || y < -1 * window.innerHeight) {
+                v.classList.remove("animiert");
+            } else {
+                v.classList.add("animiert");
+            }
+        })
+    })
+</script>
+
+</html>

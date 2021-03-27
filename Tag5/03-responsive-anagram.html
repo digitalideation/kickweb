@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>flex-basis</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+            font-size: 10vw;
+            font-weight: 700;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        .box.row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            height: 30vw;
+            height: 50vh;
+        }
+
+        .box div {
+            font-weight: 700;
+            border: 1px dotted red;
+            padding: 6px;
+            flex: 0 1 50px;
+            line-height: 120%;
+            /* The default line-height is about 110% to 120% for the majority of the browsers. The line-height property sets the leading of lines of a text. If the line-height value is greater than the font-size value of an element, the difference will be the leading of text.*/
+            background-color: rgba(255, 0, 0, 0.3);
+            order: 0;
+        }
+
+        @media screen and (max-width: 40em) {
+            .box.row {
+                background-color:red;
+                color:black;
+            }
+            .box div{
+                border: 1px dotted white;
+            }
+            .box div:nth-of-type(5) {
+                order: -1;
+            }
+
+            .box div:nth-of-type(3) {
+                order: -2;
+            }
+
+            .box div:nth-of-type(6) {
+                order: 1;
+            }
+
+            .box div:nth-of-type(4),
+            .box div:nth-of-type(7) {
+                order: 2;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="exp">
+        <div class="box row">
+            <div>F</div>
+            <div>L</div>
+            <div>E</div>
+            <div>X</div>
+            <div>B</div>
+            <div>O</div>
+            <div>X</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

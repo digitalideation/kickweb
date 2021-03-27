@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>flex-basis</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20vw;
+            font-weight: 700;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 100vh;
+        }
+
+        .wrapper div {
+            flex: 0 1 50%;
+        }
+
+        .wrapper div:nth-of-type(3),
+        .wrapper div:nth-of-type(4) {
+            align-self: flex-end;
+        }
+
+        .wrapper div:nth-of-type(2),
+        .wrapper div:nth-of-type(4) {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+
+
+        <div>T</div>
+        <div>Y</div>
+        <div>P</div>
+        <div>O</div>
+
+    </div>
+</body>
+
+</html>
