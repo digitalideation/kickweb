@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+
+<style>
+    img {
+        max-height: 150px;
+        max-width: 150px;
+    }
+
+    .background {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        grid-template-rows: 25% 10% 20% 30%;
+        /* grid-auto-rows: minmax(100px, auto); */
+    }
+
+    .one {
+        grid-column: 1 / 3;
+        grid-row: 1;
+    }
+
+    .two {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+
+    .three {
+        grid-column: 1;
+        grid-row: 2 / 4;
+    }
+
+    .four {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .five {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .six {
+        grid-column: 3;
+        grid-row: 3;
+    }
+</style>
+
+
+<body>
+    <div class="background">
+        <div class="one">
+            <img src="/Uebungen/css-grid-01/assets/images/th.jpg" alt="flower">
+        </div>
+        <div class="two">
+            <img src="/Uebungen/css-grid-01/assets/images/th-1.jpg" alt="flower">
+        </div>
+        <div class="three">
+            <img src="/Uebungen/css-grid-01/assets/images/th-2.jpg" alt="flower">
+        </div>
+        <div class="four">
+            <img src="/Uebungen/css-grid-01/assets/images/th-3.jpg" alt="flower">
+        </div>
+        <div class="five">
+            <img src="/Uebungen/css-grid-01/assets/images/th-4.jpg" alt="flower">
+        </div>
+        <div class="six">
+            <img src="/Uebungen/css-grid-01/assets/images/th-5.jpg" alt="flower">
+        </div>
+
+    </div>
+</body>
+
+</html>
