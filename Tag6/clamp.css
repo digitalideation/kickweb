@@ -1,0 +1,31 @@
+
+html {
+    font-family: sans-serif;
+  }
+  
+
+  body {
+    margin: 0 auto;
+    width: min(1000px, calc(70% + 100px));
+    font-size: 15px;
+
+     color: red;
+
+
+  }
+
+  div { border: 5px solid currentColor; 
+        text-align: center;}
+  
+  h1 {
+    letter-spacing: 2px;
+    font-size: clamp(1.8rem, 2.5vw, 2.8rem); 
+/*Schriftgrösse darf maximal 2.8 rem und minimal 1.8 rem gross sein. Falls möglich, ist die Schrift 2.5vw gross*/
+  }
+  
+  /*Schriftgrösse wird entweder max. 1.2 rem oder 1.2 vw sein*/
+  p {
+    line-height: 1.5;
+    font-size: max(1.2rem, 1.2vw);
+  } 
+  
