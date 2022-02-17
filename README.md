@@ -1,18 +1,19 @@
-# kickweb 2021
+# Kickstart Webdevelopment_2022
 
 
 ![di logo](https://github.com/digitalideation/comppx_h2001/blob/master/docs/assets/images/di-logo-small.jpg?raw=true "di logo")
 
 
-# Studio KickWeb - Spring 2021
+# Studio KickWeb - Spring 2022
 
 Instructors: Hanna Züllig, Heba Said<br/>
-Term: Spring 2021, HSLU<br/>
+Term: Spring 2022, HSLU<br/>
 
 
+# Students Repo 2022
 
 
-# Students Repo
+# Students Repo 2021
 * Nicole Bänninger https://github.com/NicoleBaenninger/kickweb21
 * Melissa Belotti https://github.com/mellipond/KickWeb
 * Michael Brechbühl https://github.com/crispycruiser/KickWeb
