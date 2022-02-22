@@ -1,0 +1,33 @@
+:root {
+    --base-color-h: 230;
+    --base-color-s: 100%;
+    --base-color-l: 50%;
+    --base-color-hsl: var(--base-color-h), var(--base-color-s), var(--base-color-l);
+    --base-color: hsl(var(--base-color-hsl));
+    --base-color-dark: hsl(var(--base-color-h), calc(var(--base-color-s) / 2), calc(var(--base-color-l) * 0.9));
+    --base-color-bright: hsl(var(--base-color-h), calc(var(--base-color-s) * 0.8), calc(var(--base-color-l) * 1.6));
+}
+
+body {
+    background-color: var(--base-color-bright);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--base-color);
+    font-size: 4rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--base-color-dark);
+}
+
+p {
+    color: var(--base-color);
+    filter: brightness(0.6);
+    font-size: 4rem;
+}

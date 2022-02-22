@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wdth,wght@75,400;100,100;100,600&family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: aqua;
+}
+
+@font-face {
+    font-family: "Bell Gothic";
+    src: url(BellGothicStd-Bold.otf);
+}
+
+p {
+    font-family: "Bell Gothic";
+}
