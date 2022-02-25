@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,700;1,700&display=swap');
+
+h1 { 
+  font-family: "Archivo Narrow", Times, serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Archivo Narrow", Times, serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: blue;
+}
+
+.beispielklassehallodu {
+  color: blueviolet;
+}
+
+#zentriert {
+  text-align: center;
+}
