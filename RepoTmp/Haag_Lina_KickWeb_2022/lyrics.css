@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Josefin-Bold;
+    src: url(JosefinSans-Bold.ttf);}
+
+    body{
+
+        background-color: #FFA3FF;
+        font-family: 'Josefin-Bold', sans-serif;
+    }
+    
+    h1{
+        color:rgb(0, 0, 0);
+        font-size: 190px;
+        padding: 0px;
+        margin: 50px;
+        text-align: center
+    }
+
+    .song{
+        font-size: 120px;
+
+    }
+
+    h2{
+        color:rgb(0, 0, 0);
+        font-size: 20px;
+        padding: 0px;
+        margin: 100px;
+
+    }
+
+
+    a:link {
+        padding: 20px;
+        color: rgb(0, 0, 0);
+        border: none;
+        display: inline-block;
+        text-align: center;
+        margin-left: 50%;
+    }
+    
+    a:hover {
+        color: #0c0cf0;
+    }
+    
+    a:visited{
+        color: #FF5C00;
+    }
