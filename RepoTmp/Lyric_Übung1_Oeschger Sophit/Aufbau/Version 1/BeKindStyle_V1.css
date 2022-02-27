@@ -1,0 +1,65 @@
+/* FONT SAMMLUNG */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Reenie+Beanie&family=Rubik+Mono+One&family=Shrikhand&family=Ultra&display=swap');
+
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+    font-style: normal;
+    font-size: 150px;
+    font-variant: small-caps;
+    text-align: Right;
+    color: #E64D37;
+}
+
+body {
+    background-color: #F5C8DD;
+}
+
+.p0{
+    font-family: 'Shrikhand', normal;
+    font-size: 30px;
+    text-align: center;
+    color: #E64D37;
+}
+.p1{
+    font-family: 'Shrikhand', normal;
+    font-size: 50px;
+    text-align: left;
+    color: #420D00;
+}
+
+.p2{
+    font-family: 'Shrikhand', normal;
+    font-size: 50px;
+    text-align: right;
+    color: #924E6D;
+}
+
+.p3{
+    font-family: 'Shrikhand', normal;
+    font-size: 25px;
+    text-align: right;
+    font-variant: small-caps;
+    color:#E64D37
+}
+
+.p4{
+    font-family: 'Shrikhand', normal;
+    font-size: 25px;
+    text-align: left;
+    font-variant: small-caps;
+    color:#E64D37
+}
+
+hr { 
+    width: window-with;
+    color:#E64D37;
+    background-color:#E64D37
+}
+.verticalline{
+    border-left: 6px solid #E64D37;
+    height: 400px;
+    position: absolute;
+    left: 20%;
+    top: window-height;
+}
