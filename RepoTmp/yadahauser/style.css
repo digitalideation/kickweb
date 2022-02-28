@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+body {
+    background:#111;
+    color:#fff;
+    font-family: 'Lacquer', cursive;
+    font-size:1.2rem;
+}
+
+.redknot {
+    font-family: 'Noto Serif KR', serif;
+}
+
+.container {
+    max-width:600px;
+    padding:2rem;
+    margin:auto;
+}
+
+.intro, .verse, .chorus, .solo,
+.strophe {
+    margin-bottom:3rem;
+}
+
+.chorus {
+    font-family: 'Ruthie', cursive;
+    font-size:2.2rem;
+}
+
+.verse {
+    font-family: 'Eater', cursive;
+    font-size:1.2rem;
+}
+
+.solo {
+    font-family: 'akronim', cursive;
+    font-size:1.6rem;
+}
+
+h1 {
+    text-align:center;
+    margin-bottom:.5rem;
+}
+
+p {
+    margin:0;
+    margin-bottom:.5rem;
+}
+
+hr {
+    border:0;
+    border-top:1px solid rgba(255,255,255,.2);
+    margin:0 auto 1.5rem auto;
+}
+
+.back {
+    opacity:.2;
+}
+
+.ml-2 {
+    margin:0;
+    margin-left:1rem;
+}
