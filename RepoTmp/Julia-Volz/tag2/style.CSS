@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: VCRMONO;
+    src: url("/process/font/VCR_OSD_MONO_1.001.ttf");
+    
+}
+
+@font-face {
+    font-family: t;
+    src: url("/process/font/Plume-Free-Brush-Font.otf");
+}
+body{
+    margin: 50px 80px;
+    background-color: rgb(17, 12, 26);
+}
+
+h1{
+    font-family: 't';
+    font-size: 150px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    display: block;
+}
+
+h2{
+    font-family:'VCRMONO', cursive;
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(253, 253, 253);
+    display: block;
+}   
+    h3{
+        font-family:'t';
+        font-size: 35px;
+        color: white;
+        text-align: center;
+    }
+
+
+P {
+    font-family: 'VCRMONO', reuglar;
+    font-size: 20px;
+color:rgb(255, 255, 255) 
+}
+
+.songblock {
+    width: 40%;
+}
+.songblock.right{
+    margin-left: 60%;
+}
+
