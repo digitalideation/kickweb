@@ -1,0 +1,108 @@
+/* ===================
+    GENERAL STYLES
+=================== */
+
+:root {
+    --black: #010101;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: var(--black);
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 9rem;
+    line-height: 9rem;
+}
+
+h2 {
+    font-size: 6rem;
+    font-style: italic;
+    line-height: 6.25rem;
+}
+
+/* ===================
+    SECTIONS
+=================== */
+
+section.section-full {
+    min-height: 100vh;
+}
+
+section > .section-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+section.section-full > .section-wrapper {
+    height: 100vh;
+    position: relative;
+}
+
+section > .section-wrapper > .section-inner {
+    padding: 5vw;
+    position: relative;
+    z-index: 1;
+}
+
+section .section-inner.inner-middle {
+    margin: auto;
+}
+section > .section-wrapper > .section-inner.inner-middle-left {
+    margin: auto;
+    margin-left: 0;
+}
+
+section > .section-wrapper > .img-absolute-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 65%;
+    transform: translateY(-50%);
+}
+
+/* ===================
+    SECTION 01
+=================== */
+
+/* ===================
+    SECTION 02
+=================== */
+
+.section-02 > .section-wrapper > .section-inner {
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+/* ===================
+    SECTION 03
+=================== */
+
+.section-03 > .section-wrapper > .img-absolute-right.img-heart img {
+    animation: img-heartbeat 3s infinite;
+    width: 100%;
+}
+
+@keyframes img-heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.05);
+    }
+    20% {
+        transform: scale(1);
+    }
+}
