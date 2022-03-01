@@ -1,0 +1,24 @@
+div.flex{
+  display: flex;
+}
+div.flex>div{
+  height: 100vh;
+  width: 30%;
+}
+
+div{
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fish1{
+  background-image: url('img/fish-01.jpg');
+}
+.fish2{
+  background-image: url('img/fish-02.jpg');
+  background-position: 0% 50%;
+}
+.fish3{
+  background-image: url('img/fish-03.jpg');
+  background-position: 0% 100%;
+}
