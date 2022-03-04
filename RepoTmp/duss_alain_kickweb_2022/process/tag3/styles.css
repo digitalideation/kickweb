@@ -1,0 +1,21 @@
+body {
+    background-image: url("background-gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  img {
+    width: 450px;
+    height: auto;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+  img:hover {
+    opacity: 0.2;
+  }
