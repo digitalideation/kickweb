@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    grid-template: repeat(6, 10vw) / repeat(3, 1fr);
+    border: 3px solid black;
+}
+.box {
+    background-color: blueviolet;
+    grid-area: 1 / 1 / 2 / 2;
+    overflow: hidden;
+}
+
+.box2 {
+    background-color: cadetblue;
+    grid-area: 2/2/5/4;
+}
