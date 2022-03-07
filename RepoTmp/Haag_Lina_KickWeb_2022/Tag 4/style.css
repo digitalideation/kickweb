@@ -1,0 +1,77 @@
+
+body{
+background-color: #FFA3FF;
+font-family: "Red Hat";
+font-size: 2em;
+text-align: center;
+color: rgb(196, 105, 95);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 111, 255);
+    border: 8px rgb(98, 0, 255) double;
+}
+
+h1 {
+color: rgb(88, 0, 204);
+
+}
+.box {
+    background-color: #ffd7f0;
+    text-align: right;
+    width: 50px;
+    line-height: 50px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 4px;
+  }
+
+.box1{
+    background-color: #ffb388;
+    text-align: center;
+    width: 50px;
+    line-height: 50px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5), 10px 30px 50px rgb(0, 0, 0, 0.5);
+    border-style: dotted;
+    border-color: rgb(255, 255, 255);
+    flex-shrink: 1;
+}
+
+.box2{
+    width: 10px;
+    text-align: left;
+    padding: 20px;
+    line-height: 80px;
+    font-size: 50px;
+    background-color: rgb(236, 255, 125);
+    border: 4px rgb(255, 0, 255) solid;
+    box-shadow: -10px 10px rgb(81, 255, 0);
+}
+
+
+.block1{
+    display: inline;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(236, 255, 125);
+    color:rgb(255, 125, 175) ;
+}
+
+.block2{
+    display: block;
+    color: rgb(255, 243, 71);
+    padding: 10px;
+    margin: 50px;
+    background-color: rgb(255, 125, 175);
+}

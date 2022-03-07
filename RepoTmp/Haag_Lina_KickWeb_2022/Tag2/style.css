@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Shizuru&display=swap');
+@font-face {
+    font-family: Circular;
+    src: url(CircularStd-Book.otf);
+  }
+
+body{
+    font-family: 'Noto Serif Display', serif;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    font-size: 19vw;
+    padding: 0px;
+    margin: 0px;
+    text-align: center
+}
+
+h2{
+    color:rgb(0, 0, 0);
+    font-family: 'Circular', Circular, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+}
+
+
+p{ 
+    font-family: 'Courier New', Courier, monospace;
+    border: 4px dotted rgb(255, 255, 255);
+    padding: 30px;
+    margin: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.special{
+    text-align: center; 
+    border: none;
+    border-top: 1px solid rgb(255, 227, 195);
+}
+
+a:link {
+    font-family: 'Circular', Circular, sans-serif;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid pink;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50%
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+a:visited{
+    color: rgb(255, 176, 86);
+
+}
+
+#wrapper {
+    color: rgb(255, 86, 128);
+    padding: 2vw;
+   text-align: center; 
+   font-family: 'Shizuru', cursive;
+}
