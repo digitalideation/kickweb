@@ -14,8 +14,8 @@ Term: Spring 2022, HSLU<br/>
 * Bossy Dario https://dariobossy.netlify.app/
 * Bumann Adrian
 * Coray Annina https://iwannadance.netlify.app/
-* Duss Alain
-* Haag Lina
+* Duss Alain https://kickweb-alain.netlify.app
+* Haag Lina https://linakickweb.netlify.app
 * Hauser Yada https://calnite.github.io/kickweb/
 * Huber Seraina
 * Jeanneret Nicole
@@ -25,7 +25,7 @@ Term: Spring 2022, HSLU<br/>
 * Philipp Silvan https://silvankickweb.netlify.app/
 * Volz Julia https://twomoons.netlify.app/
 * Zubler Fabian
-* Züst Moritz
+* Züst Moritz https://kickweb-moritz.netlify.app/
 
 # Students Repo 2021
 * Nicole Bänninger https://github.com/NicoleBaenninger/kickweb21
