@@ -11,7 +11,7 @@ Term: Spring 2022, HSLU<br/>
 
 
 # Students Repo 2022
-* Bossy Dario
+* Bossy Dario https://github.com/dariobossy/kickweb/
 * Bumann Adrian
 * Coray Annina https://iwannadance.netlify.app/
 * Duss Alain
