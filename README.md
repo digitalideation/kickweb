@@ -16,7 +16,7 @@ Term: Spring 2022, HSLU<br/>
 * Coray Annina https://iwannadance.netlify.app/
 * Duss Alain
 * Haag Lina
-* Hauser Yada
+* Hauser Yada https://calnite.github.io/kickweb/
 * Huber Seraina
 * Jeanneret Nicole
 * Künzli Nicola https://kickweb-f2201-nicola.netlify.app/
