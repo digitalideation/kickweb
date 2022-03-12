@@ -12,12 +12,12 @@ Term: Spring 2022, HSLU<br/>
 
 # Students Repo 2022
 * Bossy Dario https://dbossy-kickweb.netlify.app/
-* Bumann Adrian
+* Bumann Adrian https://adrian-bumann.netlify.app
 * Coray Annina https://iwannadance.netlify.app/
 * Duss Alain https://kickweb-alain.netlify.app
 * Haag Lina https://linakickweb.netlify.app
 * Hauser Yada https://calnite.github.io/kickweb/
-* Huber Seraina
+* Huber Seraina https://kickweb-seraina.netlify.app
 * Jeanneret Nicole
 * Künzli Nicola https://kickweb-f2201-nicola.netlify.app/
 * Kupper Mara https://kickweb-2022-mjk.netlify.app
