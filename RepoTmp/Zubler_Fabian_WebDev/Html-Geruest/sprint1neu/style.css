@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap');
+
+
+body{
+    background-color: black;
+}
+p{
+    font-family: 'Cherish', cursive;
+    font-size: 89px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 144px;
+}
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 89px;
+}
+
+em {  
+    font-style: normal;
+    font-size: 150%;
+
+}
+
+.reflection{
+    opacity: 0.2;
+    transform: translateY(-100px);
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transform: translateY(-700px);
+    width: 90%;
+    margin: 5%;
+ 
+}
+
+.flexboxelement{
+   font-family: 'Cherish', cursive;
+   font-size: 144px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+padding: 15px 0 15px 0;
+}
