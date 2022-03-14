@@ -18,7 +18,7 @@ Term: Spring 2022, HSLU<br/>
 * Haag Lina https://linakickweb.netlify.app
 * Hauser Yada https://calnite.github.io/kickweb/
 * Huber Seraina https://kickweb-seraina.netlify.app
-* Jeanneret Nicole
+* Jeanneret Nicole https://jeannerat-nicole-sprint1.netlify.app
 * Künzli Nicola https://kickweb-f2201-nicola.netlify.app/
 * Kupper Mara https://kickweb-2022-mjk.netlify.app
 * Oeschger Sophit https://kickstartweb-sophitoeschger.netlify.app
