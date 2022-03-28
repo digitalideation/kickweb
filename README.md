@@ -24,7 +24,7 @@ Term: Spring 2022, HSLU<br/>
 * Oeschger Sophit https://kickstartweb-sophitoeschger.netlify.app
 * Philipp Silvan https://silvankickweb.netlify.app/
 * Volz Julia https://twomoons.netlify.app/
-* Zubler Fabian
+* Zubler Fabian https://fabian-zubler.netlify.app
 * Züst Moritz https://kickweb-moritz.netlify.app/
 
 # Students Repo 2021
