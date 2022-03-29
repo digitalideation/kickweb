@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap">
+    <title>grid</title>
+    <style>
+        body {
+            font-family: "Teko", sans-serif;
+            background-color: black;
+        }
+        
+        @font-face {
+            font-family: "League-Mono-Var";
+            src: url("LeagueMono-VF.ttf");
+        }
+        
+        .container {
+            display: grid;
+            width: 100vw;
+            height: 100vw;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(12, 1fr);
+            gap: 0px;
+        }
+        
+        .item {
+            background-color: rgba(255, 0, 0, 0.3);
+            line-height: 70%;
+        }
+        
+        .color-red {
+            color: rgb(150, 0, 0);
+        }
+        
+        .color-aliceblue {
+            color: aliceblue
+        }
+        
+        .font-200 {
+            font-size: 200px;
+            line-height: 95%;
+        }
+        
+        .font-50 {
+            font-size: 50px;
+            line-height: 95%;
+        }
+        
+        .font-130 {
+            font-size: calc(100vw / 12);
+            line-height: 95%;
+        }
+        
+        .font-150 {
+            font-size: 150px;
+            line-height: 95%;
+        }
+        /*-------- Platzierung einzelne items -------*/
+        /* ----- Line height ----- https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align */
+        
+        .sweet {
+            grid-area: 3/2/4/12;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item sweet color-red font-200">Sweet Dreams</div>
+
+
+    </div>
+
+</body>
+
+</html>
